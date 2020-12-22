@@ -14,7 +14,7 @@ esac
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
   # Installs Oh my ZSH with Homebrew (Mac)
   if [[ $MACHINE == "Mac" ]]; then
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   fi
 
   # Installs Oh my ZSH with Linux

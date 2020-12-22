@@ -6,8 +6,6 @@ What this does:
 
 1. Installs Homebrew
 2. Installs binaries and apps with Homebrew (see [brew.sh](mac/brew.sh) for a list of installed items)
-3. Sets npm permissions
-4. Installs npm clis (see [npm.sh](shared/npm.sh) for a list of installed clis)
 5. Create symlinks for dotfiles
 6. Sets several defaults for MacOS
 

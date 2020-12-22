@@ -85,27 +85,3 @@ alias path='echo -e ${PATH//:/\\n}'
 # Source .zshrc, which updates all other commands
 alias s="source ~/.zshrc"
 
-# npm run aliases
-alias run="npm run"
-alias rd="npm run dev"
-alias rs="npm run server"
-alias rt="npm run test"
-alias rw="npm run test:watch"
-
-# Aliases for globally installed npm modules
-alias t=trash
-alias ncu="npm-check -u"
-alias svgop="svgo --pretty --disable=mergePaths,convertShapeToPath --multipass"
-alias svgor="svgop --recursive"
-
-# Aliases for np
-alias pub="np"
-alias patch="np patch"
-alias minor="np minor"
-alias major="np major"
-
-# Gulp aliases
-alias gulp='npx gulp'
-
-# Check opened TCP Ports
-alias openedports="sudo netstat -plunt"
