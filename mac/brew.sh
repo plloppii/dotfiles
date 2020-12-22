@@ -32,6 +32,8 @@ brew install grep
 brew install node
 
 # Install useful binaries.
+brew install neofetch
+brew install htop
 brew install ripgrep
 brew install autojump
 brew install git
@@ -45,19 +47,19 @@ brew install youtube-dl
 brew tap caskroom/cask
 
 ## Apps I use
-brew cask install lastpass
-brew cask install alfred
-brew cask install beamer
-brew cask install dash
-brew cask install dropbox
-brew cask install google-chrome #Chrome
-brew cask install grammarly
-brew cask install iterm2
-brew cask install mongodb-compass
-brew cask install spotify
-brew cask install sublime-merge 
-brew cask install whatsapp
-brew cask install logitech-options
+brew install --cask lastpass
+brew install --cask alfred
+brew install --cask beamer
+brew install --cask dash
+brew install --cask dropbox
+brew install --cask google-chrome #Chrome
+brew install --cask grammarly
+brew install --cask iterm2
+brew install --cask mongodb-compass
+brew install --cask spotify
+brew install --cask sublime-merge 
+brew install --cask whatsapp
+brew install --cask logitech-options
 
 # Remove outdated versions from the cellar.
 brew cleanup
