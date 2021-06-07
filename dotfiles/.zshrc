@@ -43,13 +43,13 @@ export MACHINE
 # Source aliases
 # For a full list of active aliases, run `alias`.
 if [[ "$MACHINE" == "Linux" ]];then
-  PROJECT_ROOT='/mnt/c/Users/npan/projects/dotfiles'
+  PROJECT_ROOT="/mnt/c/Users/"$USER"/projects/dotfiles"
   source "$PROJECT_ROOT/env/aliases-shared.sh"
   source "$PROJECT_ROOT/env/aliases-linux.sh"
   source "$PROJECT_ROOT/env/exports.sh"
   source "$PROJECT_ROOT/env/functions.sh"
 elif [[ "$MACHINE" == "Mac" ]]; then
-  PROJECT_ROOT='/Users/npan/dotfiles'
+  PROJECT_ROOT="/Users/$USER/dotfiles"
   source "$PROJECT_ROOT/env/aliases-shared.sh"
   source "$PROJECT_ROOT/env/aliases-mac.sh"
   source "$PROJECT_ROOT/env/exports.sh"

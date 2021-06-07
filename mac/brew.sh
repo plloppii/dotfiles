@@ -24,8 +24,8 @@ brew install findutils
 # Install GNU `sed` as gsed
 brew install gnu-sed
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install `wget` 
+brew install wget
 
 brew install gmp
 brew install grep
@@ -63,3 +63,7 @@ brew install --cask logitech-options
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Install oh-my-zsh
+$ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
